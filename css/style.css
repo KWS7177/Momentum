@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+body:last-child {
+  position: relative;
+  width: 1690px;
+  height: 793px;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#weather {
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+#myContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-size: 150px;
+  /* color: white; */
+}
+
+#login-form,
+#todo-form,
+#todo-list #greeting {
+  margin-top: 20px;
+}
+
+#login-form input,
+#todo-form input {
+  border-style: none;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #c8c8c8;
+  opacity: 0.5;
+  padding-bottom: 3px;
+  box-sizing: border-box;
+}
+
+#login-form input {
+  font-size: 30px;
+  width: 320px;
+}
+
+#todo-form input {
+  font-size: 20px;
+  width: 200px;
+}
+
+#login-form input:focus,
+#todo-form input:focus {
+  outline: none;
+}
+
+#login-form input:last-child {
+  display: none;
+  visibility: hidden;
+}
+
+#greeting {
+  color: #238eb0;
+  font-size: 30px;
+}
+
+#quote {
+  color: #c8c8c8;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#todo-list li {
+  margin-top: 5px;
+  list-style-type: none;
+  color: #c8c8c8;
+  font-size: 15px;
+}
+
+#todo-list button {
+  border-style: none;
+  background-color: white;
+  margin-left: 5px;
+  font-size: 10px;
+  text-align: center;
+}
